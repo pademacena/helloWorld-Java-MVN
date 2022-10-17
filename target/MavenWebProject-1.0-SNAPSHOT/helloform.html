@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Desenvolvimento de Aplicações Corporativas</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="FontAwesome/css/all.css">
+        <link rel="stylesheet" href="styles/form.css">
+    </head>
+    <body class="form-body">
+        <div class="form-content">
+            <div class="form-title">
+                <p class="form-title-text h3">Formulário de "Hello World!"</p>
+            </div>
+            <form action="helloworld" method="post">
+                <div class="mb-3">
+                    <label><b> Idioma </b></label>
+                    <div class="form-check">
+                        <input class="form-check-input" value="pt" type="radio" name="lang" id="lang1" checked>
+                        <label class="form-check-label" for="lang1">
+                            Português
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="en" type="radio" name="lang" id="lang2">
+                        <label class="form-check-label" for="lang2">
+                            Inglês
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="fr" type="radio" name="lang" id="lang3">
+                        <label class="form-check-label" for="lang3">
+                            Francês
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="de" type="radio" name="lang" id="lang4">
+                        <label class="form-check-label" for="lang4">
+                            Alemão
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="es" type="radio" name="lang" id="lang5">
+                        <label class="form-check-label" for="lang5">
+                            Espanhol
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="it" type="radio" name="lang" id="lang6">
+                        <label class="form-check-label" for="lang6">
+                            Italiano
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label><b> Vocativo </b></label>
+                    <div class="form-check">
+                        <input class="form-check-input" value="Nenhum" type="radio" name="voct" id="voct1" checked>
+                        <label class="form-check-label" for="voct1">
+                            Nenhum
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="Sr." type="radio" name="voct" id="voct2">
+                        <label class="form-check-label" for="voct2">
+                            Sr.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="Sra." type="radio" name="voct" id="voct3">
+                        <label class="form-check-label" for="voct3">
+                            Sra.
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label><b> Estilo </b></label>
+                    <div class="form-check">
+                        <input class="form-check-input" value="Normal" type="radio" name="style" id="style1" checked>
+                        <label class="form-check-label" for="style1">
+                            Normal
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="Moderno" type="radio" name="style" id="style2">
+                        <label class="form-check-label" for="style2">
+                            Moderno
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" value="Antigo" type="radio" name="style" id="style3">
+                        <label class="form-check-label" for="style3">
+                            Antigo
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label><b> Nome </b></label>
+                    <input class="form-control" type="text" name="name"/>
+                </div>
+                
+                <input class="btn btn-primary btn-lg btn-block" type="submit" value="Cumprimentar">
+            </form>
+        </div>
+    </body>
+</html>

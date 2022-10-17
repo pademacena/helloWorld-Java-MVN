@@ -1,0 +1,50 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 14, 2022, 7:31:24 PM
+    Author     : gabriel
+*/
+
+.home-body {
+    display: flex;
+    background-image: -webkit-radial-gradient(circle, rgba(40, 40, 40, 1), rgba(0, 0, 0, 1));
+    color: rgba(245, 245, 245, 1);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    margin: auto 0;
+    display: inline-block;
+    max-width: 926px;
+}
+
+.home-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-title-text {
+    font-weight: bolder;
+}
+
+.home-description {
+    padding: 0 20%;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.home-description-text {
+    font-weight: normal;
+}
+
+.home-button-box {
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+    padding: 0 20%;
+}

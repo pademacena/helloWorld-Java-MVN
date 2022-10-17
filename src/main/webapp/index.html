@@ -6,20 +6,29 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Demo HelloWorld (com JSP)</title>
+        <title>Desenvolvimento de Aplicações Corporativas</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="FontAwesome/css/all.css">
+        <link rel="stylesheet" href="styles/home.css">
     </head>
-    <body>
-        <h1>Preencha o formulário:</h1>
-           <form action="sayhello.jsp" method="post">
-           <br>Idioma preferido: <input type="radio" name="lang" value="pt" checked> Português
-           <input type="radio" name="lang" value="en"> Inglês
-           <input type="radio" name="lang" value="fr"> Francês
-           <input type="radio" name="lang" value="de"> Alemão<br><br>
-           Nome: <input type="text" name="nome"/><br><br>
-           <input type="submit" value="Cumprimentar"/>
-        </form>
-
+    <body class="home-body">
+        <div class="home-content">
+            <div class="home-title">
+                <p class="home-title-text h1">Tarefa 01</p>
+            </div>
+            <div class="home-description">
+                <p class="home-description-text h3">
+                    Bem-vindo a Tarefa 01 da disciplina Desenvolvimento de Aplicações Corporativas.
+                    O Objetivo dessa tarefa é modificar e realizar o deploy de uma aplicação Java na plataforma Heroku.
+                    Essa aplicação tem como objetivo saudar o usuário de acordo com as informações fornecidas.
+                </p>
+            </div>
+            <div  class="home-button-box">
+                <a class="btn btn-light btn-lg btn-block" href=".\helloform.html" role="button">Formulário de "Hello World!"</a>
+            </div>
+        </div>
     </body>
 </html>

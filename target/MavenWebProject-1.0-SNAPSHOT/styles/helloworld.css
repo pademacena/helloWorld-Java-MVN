@@ -1,0 +1,62 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Apr 15, 2022, 12:12:40 AM
+    Author     : gabriel
+*/
+
+.hello-world-body-o {
+    background: #98633B;
+    color: #FFF;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-world-body-n {
+    background: #999;
+    color: #000;
+    background: #FFF;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-world-body-d {
+    background-image: -webkit-radial-gradient(circle, rgba(40, 40, 40, 1), rgba(0, 0, 0, 1));
+    color: rgba(245, 245, 245, 1);
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.hello-world-div-o {
+    text-align: center;
+    margin: auto 0;
+    display: inline-block;
+    max-width: 926px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.hello-world-div-n {
+    text-align: center;
+    margin: auto 0;
+    display: inline-block;
+    max-width: 926px;
+    font-family: cursive;
+}
+
+.hello-world-div-d {
+    text-align: center;
+    margin: auto 0;
+    display: inline-block;
+    max-width: 926px;
+}
