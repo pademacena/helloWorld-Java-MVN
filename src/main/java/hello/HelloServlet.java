@@ -258,7 +258,7 @@ public class HelloServlet extends HttpServlet {
      */
     @Override
     public String getServletInfo() {
-        return "Short description";
+        return "Desenvolvido por Paulo Augusto de Macena";
     }// </editor-fold>
 
 }
