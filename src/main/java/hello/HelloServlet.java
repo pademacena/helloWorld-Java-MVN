@@ -224,21 +224,6 @@ public class HelloServlet extends HttpServlet {
         }
         
         String st = "d";
-        String estilo = request.getParameter("style");
-        if (estilo == null)
-            estilo = "Normal";
-        
-        switch (estilo) {
-            case "Normal":
-                st = "d";
-                break;
-            case "Moderno":
-                st = "n";
-                break;
-            case "Antigo":
-                st = "o";
-                break;
-        }
 
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {
