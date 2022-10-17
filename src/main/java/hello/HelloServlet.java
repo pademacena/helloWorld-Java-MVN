@@ -153,7 +153,7 @@ public class HelloServlet extends HttpServlet {
         
         String nome = request.getParameter("name");
         if (nome == null)
-            nome = "XPTO";
+            nome = "fulano";
         
         msg = msg + nome + ", ";
         
@@ -182,7 +182,7 @@ public class HelloServlet extends HttpServlet {
         } else if (now.getHour() >= 12 && now.getHour() <= 18) {
             switch(lang){
                 case "pt":
-                    msg = msg + "Bom Tarde!";
+                    msg = msg + "Boa Tarde!";
                     break;
                 case "en":
                     msg = msg + "Good Afternoon!";
@@ -203,7 +203,7 @@ public class HelloServlet extends HttpServlet {
         } else {
             switch(lang){
                 case "pt":
-                    msg = msg + "Bom Noite!";
+                    msg = msg + "Boa Noite!";
                     break;
                 case "en":
                     msg = msg + "Good Night!";
@@ -246,6 +246,7 @@ public class HelloServlet extends HttpServlet {
                 "           </p>" +
                 "       </div>" +
                 "   </body>" +
+                "<footer> <p>Desenvolvido por Paulo Augusto</p> </footer>" +
                 "</html>"
             );
         }
